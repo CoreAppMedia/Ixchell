@@ -56,6 +56,8 @@
 		EC2C11AA2AE3052F0076B947 /* DismissView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2C11A92AE3052F0076B947 /* DismissView.swift */; };
 		EC2C11AC2AE3055C0076B947 /* ViewPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2C11AB2AE3055C0076B947 /* ViewPrincipal.swift */; };
 		ECDCF0022AE70CB800723F61 /* CrearCuestionario.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDCF0012AE70CB800723F61 /* CrearCuestionario.swift */; };
+		FEDBF2B22AF214A700133ED9 /* InfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBF2B12AF214A700133ED9 /* InfoCard.swift */; };
+		FEDBF2B42AF214CC00133ED9 /* InfoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBF2B32AF214CC00133ED9 /* InfoList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +84,8 @@
 		EC2C11A92AE3052F0076B947 /* DismissView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissView.swift; sourceTree = "<group>"; };
 		EC2C11AB2AE3055C0076B947 /* ViewPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPrincipal.swift; sourceTree = "<group>"; };
 		ECDCF0012AE70CB800723F61 /* CrearCuestionario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrearCuestionario.swift; sourceTree = "<group>"; };
+		FEDBF2B12AF214A700133ED9 /* InfoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCard.swift; sourceTree = "<group>"; };
+		FEDBF2B32AF214CC00133ED9 /* InfoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				AB1C8F522AE45CF800E0A49F /* BaseView.swift */,
+				FEDBF2B02AF2146800133ED9 /* IngoGraf */,
 				AB1C8F542AE5DA3400E0A49F /* Botones */,
 				AB2CFB392AE85D64006F7FC1 /* Credenciales.swift */,
 				AB2CFB3B2AE89974006F7FC1 /* Llamadas.swift */,
@@ -213,6 +218,15 @@
 				EC2C11A72AE304BD0076B947 /* LoginEmailView.swift */,
 			);
 			path = Vistas;
+			sourceTree = "<group>";
+		};
+		FEDBF2B02AF2146800133ED9 /* IngoGraf */ = {
+			isa = PBXGroup;
+			children = (
+				FEDBF2B12AF214A700133ED9 /* InfoCard.swift */,
+				FEDBF2B32AF214CC00133ED9 /* InfoList.swift */,
+			);
+			path = IngoGraf;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +351,8 @@
 				EC2C11AC2AE3055C0076B947 /* ViewPrincipal.swift in Sources */,
 				EC0B1F5B2AE7004A006ED5D1 /* EstructurasCuestionarios.swift in Sources */,
 				EC2C11522AE301E20076B947 /* ProyectoChipilApp.swift in Sources */,
+				FEDBF2B42AF214CC00133ED9 /* InfoList.swift in Sources */,
+				FEDBF2B22AF214A700133ED9 /* InfoCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

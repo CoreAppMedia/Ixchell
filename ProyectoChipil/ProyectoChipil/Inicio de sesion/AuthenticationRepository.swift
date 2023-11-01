@@ -29,4 +29,9 @@ final class AuthenticationRepository{
     func logout() throws{
         try authenticationFirebaseDatasource.logout()
     }
+    
+    func InfoG(name: String, image: String, description: String, directions: String, url: String){
+        authenticationFirebaseDatasource.InfoG(name: name, image: image, description: description, directions: directions, url: url)
+    }
+    
 }

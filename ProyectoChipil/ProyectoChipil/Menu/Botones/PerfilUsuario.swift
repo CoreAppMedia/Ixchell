@@ -18,7 +18,8 @@ struct PerfilUsuario: View {
     var nombreDeUsuario: String {
         return authenticationViewModel.user?.email ?? "Miriam@gmail.com"
     }
-    @Binding var value: String
+    @Binding var value: String//puente
+    //Navegation 
     
     var body: some View {
         if let perfilData = perfil_1{
@@ -89,7 +90,7 @@ struct PerfilUsuario: View {
     func fetchData(usuario: String)async throws{
         print("hasta aqui vamos bien")
         print(usuario)
-        let perfilData = try await Firestore.firestore().collection("Usuarios").document(usuario).getDocument().data(as: PerfilData.self)
+        let perfilData = try await  Firestore.firestore().collection("Usuarios").document(usuario).getDocument().data(as: PerfilData.self)
 
         //actualizar la infromacion en el hilo principal
         await MainActor.run(body: {

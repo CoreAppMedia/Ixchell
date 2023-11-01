@@ -62,5 +62,12 @@ final class AuthenticatinFirebaseDatasourse {
         try Auth.auth().signOut()
     }
     
+    //Funcion para crear infografias
+    func InfoG(name: String, image: String, description: String, directions: String, url: String){
+        Auth.auth().InfoG(withname: name, image: image, description: description, directions: directions, url: url){
+            
+        }
+    }
+    
     
 }
