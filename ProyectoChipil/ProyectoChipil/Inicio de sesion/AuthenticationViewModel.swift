@@ -61,7 +61,7 @@ final class AuthenticationViewModel: ObservableObject{
         }
     }
     
-    func InfoG(name: String, image: String, description: String, directions: String, url: String){
+  /*  func InfoG(name: String, image: String, description: String, directions: String, url: String){
         authenticationRepository.InfoG(name: name, image: image, description: description, directions: directions, url: url)
-    }
+    }*/
 }

@@ -24,7 +24,7 @@ struct InfoCard: View {
                 .frame(maxWidth: 136)
                 .padding()
         }
-            
+
         placeholder: do {
             Image(systemName:"photo")
                 .resizable()
